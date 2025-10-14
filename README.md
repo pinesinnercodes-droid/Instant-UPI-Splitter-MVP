@@ -81,4 +81,14 @@ Goal
 
 Provide a flexible, transparent, and user-controlled way to split bills among friends, handle declined payments intelligently, allow retries, redistribute unpaid amounts, and share receipts, ensuring the merchant receives payment only after confirmations or app owner approval, using standard UPI apps.
 
+✅ Benefits as Defensive Publication
+
+Publicly documents full MVP user flow.
+
+Includes declined payments, retries, redistribution, volunteer payments, and receipt sharing.
+
+Confirms all payments use standard UPI apps, reducing legal risk.
+
+Serves as timestamped prior art to protect against future patent claims.
+
 
