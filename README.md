@@ -11,25 +11,25 @@ Instant UPI Splitter is a mobile app prototype that allows friends to split bill
 
 Core Steps / User Flow
 
-Scan Merchant QR
+1)Scan Merchant QR
 
 App owner opens the app and scans the merchant’s QR code (restaurant, cafe, ride, etc.).
 
-Choose Split Method
+2)Choose Split Method
 
 Options:
 
-Split equally among participants
+i)Split equally among participants
 
-Custom split per participant
+ii)Custom split per participant
 
-Add Participants
+3)Add Participants
 
 Add each friend’s contact number, phone number, or UPI ID.
 
 App owner can choose to include themselves or remain excluded from the split.
 
-Send UPI Payment Requests
+4)Send UPI Payment Requests
 
 Participants receive payment requests on their UPI apps.
 
@@ -43,21 +43,21 @@ App owner is notified if any participant declines.
 
 Options:
 
-Retry sending the request.
+i)Retry sending the request.
 
-Proceed with only confirmed payments.
+ii)Proceed with only confirmed payments.
 
-Redistribute remaining unpaid amount among participants who confirmed (equally or custom).
+iii)Redistribute remaining unpaid amount among participants who confirmed (equally or custom).
 
-Volunteer payment by any participant for an unpaid share.
+iv)Volunteer payment by any participant for an unpaid share.
 
-Complete Payment to Merchant
+5)Complete Payment to Merchant
 
 Merchant receives total payment only after confirmed payments or after app owner decides how to handle declined amounts.
 
 App updates status for each participant (paid, pending, declined, redistributed, or volunteer-covered).
 
-Track Payments and Share Receipts
+6)Track Payments and Share Receipts
 
 Tracks total collected, pending, and declined payments.
 
