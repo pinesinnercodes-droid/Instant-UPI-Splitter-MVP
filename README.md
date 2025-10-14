@@ -3,7 +3,7 @@ Defensive publication for Instant UPI Splitter MVP flow
 Instant UPI Splitter – MVP Flow (Defensive Publication)
 
 Date: 14 October 2025
-Author: [Your Name]
+Author: Shlok R. Lotake
 
 Description
 
