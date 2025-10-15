@@ -1,0 +1,125 @@
+Instant UPI Splitter – MVP Flow (Defensive Publication)
+
+Date: 15 October 2025
+Author: Shlok Lotake
+
+Description
+
+Instant UPI Splitter is a mobile app prototype that allows friends to split bills, collect payments via UPI apps, handle declined payments, allow retries, redistribute unpaid amounts, share receipts, and optionally let one user pay the full bill while others reimburse them via UPI.
+All payments are completed through standard UPI apps (Google Pay, PhonePe, Paytm, BHIM, etc.). The app does not create or modify any UPI flow, it only helps users calculate, distribute, and send payment requests.
+
+Core Steps / User Flow
+
+Scan Merchant QR
+
+App owner opens Instant UPI Splitter and scans the merchant’s QR code (restaurant, cafe, ride, etc.).
+
+Choose Split Method
+
+Options:
+
+Split equally among participants
+
+Custom split per participant
+
+Add Participants
+
+Add each friend’s contact number, phone number, or UPI ID.
+
+App owner can choose whether to include themselves in the split.
+
+Select Payment Mode
+
+The app gives two choices:
+
+Mode 1: Split and Collect – everyone pays their own share directly via UPI.
+
+Mode 2: Pay Entire Bill and Collect Later – the app owner pays the full amount first, while automatic UPI payment requests are sent to the other participants for reimbursement.
+
+Send UPI Payment Requests
+
+In Mode 1, each participant receives a UPI payment request.
+
+In Mode 2, the app owner pays the total bill via their preferred UPI app, and simultaneously, UPI payment requests are sent to all other participants for their respective shares.
+
+If any participant declines or ignores the request, the app records it as pending or declined.
+
+Handle Declined Payments
+
+If a participant declines or ignores a request:
+
+The app owner is notified.
+
+The owner can retry sending another request.
+
+If still declined, the app owner may:
+
+Keep the unpaid portion pending.
+
+Redistribute the unpaid amount among confirmed participants (equally or custom).
+
+Allow a volunteer participant to pay on behalf of the declined user.
+
+Complete Payment to Merchant
+
+In Mode 1: The merchant receives payment only after confirmed payments are finalized or the owner decides to proceed.
+
+In Mode 2: The merchant is paid immediately by the app owner, and the app manages reimbursements from other participants.
+
+App updates payment statuses: paid, pending, declined, redistributed, or volunteer-covered.
+
+Track Payments and Share Receipts
+
+Tracks total collected, pending, and declined reimbursements.
+
+Provides option to share receipt automatically or manually with all participants for transparency and record-keeping.
+
+Example Scenarios
+Example 1 – Regular Split
+
+Three friends share a ₹1,500 bill. Friend A (app owner) scans the merchant QR and adds Friend B and Friend C. All choose equal split.
+
+Friend B and Friend C each receive UPI requests for ₹500.
+
+Friend B pays, Friend C declines.
+
+Friend A retries, Friend C still declines.
+
+Friend A chooses to redistribute the remaining ₹500 among confirmed participants or pays it fully.
+
+The app shares the receipt with everyone.
+
+Example 2 – Full Payment then Reimbursement
+
+Three friends share a ₹1,500 dinner bill. Friend A chooses “Pay Entire Bill and Collect Later.”
+
+Friend A scans the merchant QR, pays the full ₹1,500 via UPI.
+
+Immediately, payment requests for ₹500 each are sent to Friend B and Friend C.
+
+The app tracks whether B and C reimburse A, allows retries, redistribution, or voluntary payment if one declines.
+
+Merchant is already paid; the app manages peer reimbursements among friends.
+
+Goal
+
+Provide a flexible, transparent, and user-controlled way to:
+
+Split bills among friends
+
+Handle declined payments intelligently
+
+Allow retries and redistribution
+
+Let one user pay the total amount first and collect reimbursements later
+
+Share receipts for transparency
+All while ensuring payments are completed only through standard UPI apps.
+
+✅ Benefits as Defensive Publication
+
+Publicly documents complete MVP user flow including reimbursement, retries, redistribution, and receipt sharing.
+
+Confirms that no new UPI authorization or merchant settlement flow is created.
+
+Timestamped GitHub publication acts as defensive prior art, reducing risk of future patent claims.
